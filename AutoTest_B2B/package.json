@@ -1,0 +1,19 @@
+{
+  "name": "autotest_b2b",
+  "version": "1.0.0",
+  "description": "test b2b",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.5.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor":{
+    "nonGlobsalStepDefinitions": true,
+    "step_definitions": "cypress/e2e"
+  }
+}

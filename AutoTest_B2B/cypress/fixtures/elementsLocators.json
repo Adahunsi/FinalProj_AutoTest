@@ -1,0 +1,10 @@
+{
+  "emailField": "#email",
+  "passWordField": "#password",
+  "loginButton": ".rounded-md",
+  "otpField": "input[data-input-otp='true']",
+  "otp": "1234",
+  "loginMail": "admin@iisysgroup.com",
+  "password": "milimatr",
+  "verifyButton": ".bg-primary"
+}
